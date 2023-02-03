@@ -233,251 +233,129 @@ main {
   }
 }
 
-// @media screen and (max-width: 2560px) {
-//   .wrapper {
-//     max-width: 2560px;
-//   }
 
-//   .banner {
-//     height: 1350px;
-//     margin: 0px;
-//     margin-bottom: -45px;
-//     &__logo {
-//       margin-left: 40px;
-//       height: 214px;
-//       width: 202px;
-//       margin-top: -20px;
-//     }
-//     &__content {
-//       margin-top: -270px;
-//       &--title {
-//         margin-bottom: 25px;
-//         font-size: 76px;
-//       }
-//     }
-//   }
-//   main {
-//     height: 6700px;
-//   }
-//   .testimonial {
-//     & .photo {
-//       top: -125px;
-//       right: 0px;
-//       width: 754px;
-//       height: 805px;
-//     }
-//     & .beer {
-//       width: 543px;
-//       height: 1382px;
-//       top: 0px;
-//       right: 470px;
-//     }
-//     & .brew {
-//       padding: 50px 0px 160px 275px;
 
-//       &__title {
-//         font-size: 76px;
-//         margin-bottom: 25px;
-//       }
-//       &__text {
-//         font-size: 30px;
-//         width: 1300px;
-//       }
-//     }
-//     & .quality {
-//       width: 2214px;
-//       height: 630px;
-//       &__content {
-//         padding: 120px 0px 90px 275px;
-//       }
-//       &__title {
-//         font-size: 76px;
-//         margin-bottom: 50px;
-//       }
-//       &__text {
-//         font-size: 30px;
-//         width: 1150px;
-//       }
-//       &__btn {
-//         margin-top: 25px;
-//         width: 290px;
-//         height: 70px;
-//         font-size: 24px;
-//       }
-//     }
-//   }
-//   .about {
-//     margin-top: -95px;
-//     height: 1130px;
-//     & h2 {
-//       font-size: 76px;
-//       width: 730px;
-//       margin: 410px 0px 0px 1520px;
-//     }
-//   }
-//   .handcrafted {
-//     padding-top: 170px;
-//     padding-left: 275px;
-//     &__title {
-//       font-size: 76px;
-//       width: 680px;
-//     }
-//     &__text1 {
-//       margin-top: 80px;
-//       margin-bottom: 60px;
-//       width: 800px;
-//       font-size: 30px;
-//     }
-//     &__text2 {
-//       width: 800px;
-//       font-size: 30px;
-//     }
-//     & img {
-//       width: 1250px;
-//       height: 1290px;
-//       top: -210px;
-//     }
-//   }
-//   .footer {
-//     margin-top: 400px;
-//     & h2 {
-//       font-size: 76px;
-//     }
-//     & p {
-//       font-size: 30px;
-//       margin-top: 30px;
-//       margin-bottom: 30px;
-//     }
-//     & button {
-//       margin-top: 25px;
-//       width: 290px;
-//       height: 70px;
-//       font-size: 24px;
-//     }
-//   }
-// }
+@media screen and (max-width: 1440px) {
+  .wrapper {
+    max-width: 1440px;
+  }
 
-// @media screen and (max-width: 1440px) {
-//   .wrapper {
-//     max-width: 1440px;
-//   }
+  .banner {
+    height: 760px;
+    margin-bottom: -25px;
+    &__logo {
+      margin-left: -20px;
+      height: 122px;
+      width: 115px;
+      margin-top: 30px;
+    }
+    &__content {
+      margin-top: 10px;
+      &--title {
+        margin-bottom: 15px;
+        font-size: 43px;
+      }
+    }
+  }
+  main {
+    height: 3764px;
+  }
+  .testimonial {
+    & .photo {
+      top: -125px;
+      right: 0px;
+      width: 425px;
+      height: 455px;
+    }
+    & .beer {
+      width: 306px;
+      height: 779px;
+      top: -30px;
+      right: 270px;
+    }
+    & .brew {
+      padding: 0px 0px 20px 155px;
 
-//   .banner {
-//     height: 760px;
-//     margin-bottom: -25px;
-//     &__logo {
-//       margin-left: -20px;
-//       height: 122px;
-//       width: 115px;
-//       margin-top: 30px;
-//     }
-//     &__content {
-//       margin-top: 10px;
-//       &--title {
-//         margin-bottom: 15px;
-//         font-size: 43px;
-//       }
-//     }
-//   }
-//   main {
-//     height: 3764px;
-//   }
-//   .testimonial {
-//     & .photo {
-//       top: -125px;
-//       right: 0px;
-//       width: 425px;
-//       height: 455px;
-//     }
-//     & .beer {
-//       width: 306px;
-//       height: 779px;
-//       top: -30px;
-//       right: 270px;
-//     }
-//     & .brew {
-//       padding: 0px 0px 20px 155px;
-
-//       &__title {
-//         font-size: 43px;
-//         margin-bottom: 20px;
-//       }
-//       &__text {
-//         font-size: 17px;
-//         width: 730px;
-//       }
-//     }
-//     & .quality {
-//       width: 1245px;
-//       height: 359px;
-//       &__content {
-//         padding: 100px 0px 90px 155px;
-//       }
-//       &__title {
-//         font-size: 43px;
-//         margin-bottom: 20px;
-//       }
-//       &__text {
-//         font-size: 17px;
-//         width: 650px;
-//       }
-//       &__btn {
-//         margin-top: 15px;
-//         width: 160px;
-//         height: 35px;
-//         font-size: 14px;
-//       }
-//     }
-//   }
-//   .about {
-//     margin-top: -20px;
-//     height: 640px;
-//     z-index: 2;
-//     & h2 {
-//       font-size: 43px;
-//       width: 230px;
-//       margin: 230px 0px 0px 855px;
-//     }
-//   }
-//   .handcrafted {
-//     padding-top: 100px;
-//     padding-left: 155px;
-//     &__title {
-//       font-size: 43px;
-//       width: 380px;
-//     }
-//     &__text1 {
-//       margin-top: 40px;
-//       margin-bottom: 30px;
-//       width: 470px;
-//       font-size: 17px;
-//     }
-//     &__text2 {
-//       width: 450px;
-//       font-size: 17px;
-//     }
-//     & img {
-//       z-index: 3;
-//       width: 707px;
-//       height: 730px;
-//       top: -130px;
-//     }
-//   }
-//   .footer {
-//     margin-top: 220px;
-//     & h2 {
-//       font-size: 43px;
-//     }
-//     & p {
-//       font-size: 17px;
-//       margin-top: 15px;
-//       margin-bottom: 15px;
-//     }
-//     & button {
-//       margin-top: 15px;
-//       width: 160px;
-//       height: 35px;
-//       font-size: 14px;
-//     }
-//   }
-// }
+      &__title {
+        font-size: 43px;
+        margin-bottom: 20px;
+      }
+      &__text {
+        font-size: 17px;
+        width: 730px;
+      }
+    }
+    & .quality {
+      width: 1245px;
+      height: 359px;
+      &__content {
+        padding: 100px 0px 90px 155px;
+      }
+      &__title {
+        font-size: 43px;
+        margin-bottom: 20px;
+      }
+      &__text {
+        font-size: 17px;
+        width: 650px;
+      }
+      &__btn {
+        margin-top: 15px;
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+      }
+    }
+  }
+  .about {
+    margin-top: -20px;
+    height: 640px;
+    z-index: 2;
+    & h2 {
+      font-size: 43px;
+      width: 230px;
+      margin: 230px 0px 0px 855px;
+    }
+  }
+  .handcrafted {
+    padding-top: 100px;
+    padding-left: 155px;
+    &__title {
+      font-size: 43px;
+      width: 380px;
+    }
+    &__text1 {
+      margin-top: 40px;
+      margin-bottom: 30px;
+      width: 470px;
+      font-size: 17px;
+    }
+    &__text2 {
+      width: 450px;
+      font-size: 17px;
+    }
+    & img {
+      z-index: 3;
+      width: 707px;
+      height: 730px;
+      top: -130px;
+    }
+  }
+  .footer {
+    margin-top: 220px;
+    & h2 {
+      font-size: 43px;
+    }
+    & p {
+      font-size: 17px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    & button {
+      margin-top: 15px;
+      width: 160px;
+      height: 35px;
+      font-size: 14px;
+    }
+  }
+}
